@@ -14,7 +14,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - name: demo
-        image: nginx:1.25
+      - name: demo-app
+        image: nginx:latest
         ports:
         - containerPort: 80
